@@ -1,0 +1,480 @@
+@charset "utf-8";
+
+/*
+---------------------------------------
+add css
+---------------------------------------
+*/
+
+#contents {
+	width: 750px;
+	margin: 0 auto;
+	background: #fff;
+}
+dl.cont_box_01 dd select {
+	width: 100%;
+	font-size: 32px;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../files/shuketu_icon02.png) 98% center no-repeat;
+	background-size: 2%;
+	height: 70px;
+}
+
+dl.cont_box_01 dd select.select02{
+	float:left;
+	margin-right:3%;
+	width:30%;
+	background:#f0f0f0;}
+
+dl.cont_box_01 dd select.select03{
+	margin-left:2%;
+	margin-right:2%;
+	width:20%;}
+
+dl.cont_box_01 dd span.select03{
+	display: inline;
+	height: 33px;
+	line-height: 2.5;}
+
+dl.cont_box_01 dd input.input05{
+	max-width: 97%;
+	font-size: 32px;
+	line-height:1.6;
+	padding: 10px;
+	border: 1px solid #ccc;
+	-webkit-appearance:none;
+}
+
+dl.cont_box_01 dd input.input05{
+	width:40%;}
+
+.preview_img_div{
+	float: left;
+	width: 50%;
+	margin-top: 15px;
+}
+
+.friend_from_man {
+	// background-color: #f1f3fe !important;
+	padding: 30px !important;
+	// border-bottom: 1px solid #e3e3e3;
+	// border-top: 1px solid #e3e3e3;
+}
+
+.friend_from_woman {
+	// background-color: #fef1f7 !important;
+	padding: 30px !important;
+}
+
+.custom_01 {
+	padding:2% 6% 2% 6% !important;
+	margin: 4% auto 2% auto !important;
+}
+
+.custom_02 {
+	padding:3% 5% 3% 5% !important;
+	background-color: #F9C4DC !important;
+	color: #948068 !important;
+	border-bottom: 1px solid #593C35 !important;
+	text-align: center !important;
+}
+
+.custom_04 {
+	padding:0 5% 0 5% !important;
+}
+
+ul.items {
+	border-width:0;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+ul.items li{
+	display:inline;
+	padding-left:1%;
+	padding-right: 1%;
+}
+ul.items span{
+	display:inline-block;
+	padding:0;
+	width: 40px;
+}
+div.item {
+	padding: 5px;
+	border: 1px solid #593C35;
+	border-top: 0;
+}
+div.first_item {
+	padding: 5px;
+	border-top: 1px solid #593C35;
+}
+div.item table,
+dd.custom_03 table {
+	width: 100%;
+}
+div.item td {
+	vertical-align: middle;
+}
+div.item td.guest_name_td,
+dd.custom_03 td.guest_name_td {
+	font-size: 160%;
+	font-weight: bold;
+}
+div.item td.guest_tel_td,
+dd.custom_03 td.guest_tel_td  {
+	font-size: 100%;
+	font-weight: bold;
+}
+div.item td.guest_edit_td,
+dd.custom_03 td.guest_edit_td {
+	width: 24%;
+}
+
+dd.custom_03 td.guest_edit_td2 {
+	width: 30%;
+}
+
+.submit_button {
+	border:1px solid #4c4c4c;
+	padding: 2px 12px;
+	color: #222;
+	cursor: pointer;
+	background: #428ec9;
+	border-radius: 5px;
+
+	/* Webkit */
+	background: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	from(#fff),
+	to(#d1d1d1)
+	);
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 1px #fff;
+
+	/* Firefox */
+	background: -moz-linear-gradient(
+	top,
+	#fff,
+	#d1d1d1
+	);
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 1px 1px 1px #fff;
+
+	/* IE */
+	filter:progid:DXImageTransform.Microsoft.gradient
+	(startColorstr=#fff,endColorstr=#d1d1d1);
+	zoom: 1;}
+
+/*- Menu Tabs I--------------------------- */
+
+.tabsI_dt {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	background: none !important;
+	border: 0 !important;
+}
+
+
+#tabsI {
+	width:100%;
+	font-size: 93%;
+	line-height:normal;
+	height: 47px;
+}
+#tabsI ul {
+	margin:0;
+	padding:10px 10px 0 0;
+	list-style:none;
+}
+#tabsI li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+#tabsI a {
+	float:left;
+	background:url(../image_ap/tableftI.gif) no-repeat left top;
+	margin:0;
+	padding:0 0 0 5px;
+	text-decoration:none;
+}
+#tabsI a span {
+	float:left !important;
+	display:block;
+	background:url(../image_ap/tabrightI.gif) no-repeat right top;
+	padding:15px 25px 5px 16px;
+	color:#FFF;
+	border: 0 !important;
+	margin-left: 0 !important;
+	top: 0 !important;
+	border-radius: 0 !important;
+	font-size: 130%;
+	font-weight: bold;
+}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabsI a span {float:none !important;}
+/* End IE5-Mac hack */
+#tabsI a:hover span {
+	color:#FFF !important;
+}
+#tabsI a:hover {
+	background-position:0% -42px;
+}
+#tabsI a:hover span {
+	background-position:100% -42px !important;
+}
+
+#tabsI .current a {
+	background-position:0% -42px !important;
+}
+#tabsI .current a span {
+	background-position:100% -42px !important;
+}
+
+.hcmt #errorExplanation {
+	margin: 30px 0;
+}
+
+#errorExplanation {
+	margin: 30px 40px;
+	padding: 15px 20px;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 3px;
+	border: solid 1px #f17f8f;
+	color: #f17f8f;
+	font-weight: normal;
+}
+
+#errorExplanation img{
+	width: 28px;
+	margin-right:5px;
+	vertical-align:text-top;
+	height:auto;}
+
+#errorExplanation li {
+	text-align: left;
+	padding-left: 10px;
+}
+
+#system_notice {
+    margin: 30px 40px;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 3px;
+    border: solid 1px #f17f8f;
+    color: #f17f8f;
+    font-weight: normal;
+}
+
+.alnL{
+	text-align: left;}
+
+div.cont_box_03{
+	background:#fff;
+	border-radius: 7px;
+}
+
+div.cont_box_04 {
+	margin: 0 auto 0;
+	padding: 0 4% 0;
+	width: 85%;
+}
+
+div.cont_box_04 div {
+	/*    display: inline-block;*/
+	font-size: 13px;
+	padding: 3% 0;
+	// text-align: center;
+}
+
+div.cont_image_box{
+	width:85%;
+	padding:6px;
+	background:#fff;
+	margin: 4% auto 5% auto;
+}
+
+#dialog-message,
+#dialog-confirm{
+	display: none;
+}
+
+span.total {
+	height: 33px;
+	line-height: 2.5;
+}
+
+table.sheet {
+	width: 100%;
+}
+table.sheet tr {
+	line-height: 2;
+}
+table.sheet .tr_line {
+	border-bottom: 2px solid #593C35;
+}
+table.sheet .td_aR {
+	text-align: right;
+	vertical-align: bottom;
+}
+#result_total, #fee_total, #cost_total {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#url_view {
+	width: 97%;
+	font-size: 32px;
+	line-height:1.6;
+	padding: 10px;
+	margin-bottom: 30px;
+	border: 1px solid #ccc;
+	-webkit-appearance:none;
+}
+
+/* ap追加分 */
+
+#advertise_banners {
+	width: 750px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.hcmt {
+	margin: 0 40px 20px 40px;
+	line-height: 1.8;
+	color: #4e4e4e;
+}
+
+.alnC {
+	text-align: center !important;
+}
+
+div.attention{
+	padding: 40px;
+}
+
+div.attention ul{
+	padding: 30px 30px 0 30px;
+	color: #948068;
+	border-radius: 3px;
+	border: solid 1px  #948068
+}
+
+div.attention ul li{
+	padding-left: 30px;
+	text-indent: -30px;
+	margin-bottom: 30px;
+}
+
+div.attention ul li img{
+	width: 30px;
+	margin-right: 3px;
+	vertical-align: middle;
+	height: auto;
+	position: relative;
+	top: -2px;
+}
+
+div.attention ul.confirAttention li{
+	padding-left: 30px;
+	text-indent: -30px;
+	font-size: 28px;
+}
+
+div.attention ul.confirAttention li img{
+	width: 28px;
+	margin-right: 3px;
+	vertical-align: middle;
+	height: auto;
+	position: relative;
+	top: -2px;
+}
+
+section.prev_box h1.title{
+	padding: 15px;
+	margin: 40px;
+	background: #948068;
+	border-radius: 10px;
+	border: solid 2px #fff;
+	font-size:14px;
+	color: #fff;}
+
+ul.guest{
+}
+
+ul.guest li{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+ul.guest li img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.lastChange {
+	margin: 30px 40px;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 3px;
+	border: solid 1px #f17f8f;
+	color: #f17f8f;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.confir {
+	display: block;
+	font-size: 25px;
+	font-weight: normal;
+	background: #686868;
+	color: #fff;
+	padding: 15px 10px;
+	font-size: 32px;
+	margin: 0 0 20px;
+}
+.photo {
+    text-align: center;
+    border: solid 5px rgb(244, 244, 244);
+    margin: 30px 40px;
+    padding: 25px 15px;
+}
+
+.formH {
+	display: block;
+	font-size: 32px;
+	padding: 15px 0;
+	border-bottom: solid 1px #999;
+	/*margin: 30px 0;*/
+}
+
+.plr20 {
+	padding: 0 20px;
+}
+
+.plr30 {
+	padding: 0 30px;
+}
+
+div.attention ul li img.gmologo {
+	width: 400px;
+    margin: 0 10px;
+    border-bottom: solid 2px #333;
+    padding: 0 0 3px;
+}
+.gmologo {
+	width: 400px;
+    margin: 0 10px;
+}
