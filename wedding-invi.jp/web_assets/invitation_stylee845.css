@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+.mt5{margin-top:5px !important;}
+.hidden{
+    display: none;
+}
+
+@media (min-width: 320px) {
+    .new-action-design-tm-Heading3 {
+        line-height: 1.8rem;
+        padding: 1.5rem 0 1.5rem 0;
+        font-size: 3.5vw;
+        font-family: 'Noto Serif JP', serif;
+        text-align: center;
+    }
+
+    .new-action-design-tm-Heading3 .medium-font-size {
+        font-size: 4.5vw;
+    }
+
+    .new-action-design-tm-Heading3-action25 {
+        position: absolute;
+        bottom: -4.8rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Noto Serif JP', serif;
+        line-height: 1.8rem;
+    }
+
+    .new-action-design-tm-Heading3-action25 .medium-font-size {
+        font-size: 5.0vw;
+    }
+
+    .tm-Heading2_Title-action25 {
+        line-height: 1.8rem;
+        padding: 5.8rem 0 0.5rem 0;
+        font-size: 4vw;
+        font-family: 'Noto Serif JP', serif;
+        text-align: center;
+    }
+
+    .simple-design-tm-Heading {
+        width: 100%;
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 30px;
+        line-height: 30px;
+        font-family: 'Noto Serif JP', serif;
+    }
+
+    .simple-design-tm-Heading .medium-font-size {
+        font-size: 5.0vw;
+    }
+
+    .old-design-tm-Heading {
+        width: 100%;
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        line-height: 50px;
+        font-family: 'Noto Serif JP', serif;
+    }
+
+    .old-design-tm-Heading .medium-font-size {
+        font-size: 5.0vw;
+    }
+}
+
+@media (min-width: 900px), print {
+    .new-action-design-tm-Heading3 {
+        line-height: 2.8rem;
+        padding: 1.5rem 0 1.5rem 0;
+        font-size: 26px;
+        font-family: 'Noto Serif JP', serif;
+        text-align: center;
+    }
+
+    .new-action-design-tm-Heading3 .medium-font-size {
+        font-size: 30px;
+    }
+
+    .new-action-design-tm-Heading3-action25 {
+        position: absolute;
+        bottom: -5.8rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Noto Serif JP', serif;
+        line-height: 2.8rem;
+    }
+
+    .new-action-design-tm-Heading3-action25 .medium-font-size {
+        font-size: 35px;
+    }
+
+    .tm-Heading2_Title-action25 {
+        line-height: 1.8rem;
+        padding: 9.0rem 0 0.5rem 0;
+        font-size: 30px;
+        font-family: 'Noto Serif JP', serif;
+        text-align: center;
+    }
+
+    .simple-design-tm-Heading {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+        line-height: 60px;
+        font-family: 'Noto Serif JP', serif;
+    }
+
+    .simple-design-tm-Heading .medium-font-size {
+        font-size: 35px;
+    }
+
+    .old-design-tm-Heading {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+        line-height: 60px;
+        font-family: 'Noto Serif JP', serif;
+    }
+
+    .old-design-tm-Heading .medium-font-size {
+        font-size: 35px;
+
+    }
+}
